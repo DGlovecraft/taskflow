@@ -1,6 +1,6 @@
 # TaskFlow
 
-ระบบจัดการงานและติดตามงานสำหรับสมาชิกและผู้ดูแลระบบ สร้างด้วย Next.js, Prisma, SQLite และ NextAuth.js
+ระบบจัดการงานและติดตามงานสำหรับสมาชิกและผู้ดูแลระบบ สร้างด้วย Next.js, Prisma, SQLite/LibSQL และ NextAuth.js
 
 ## ความสามารถ
 
@@ -56,6 +56,8 @@ AUTH_SECRET="ใส่ค่าที่สร้างจาก npx auth secret
 npx prisma migrate dev
 npx prisma generate
 ```
+
+โปรเจกต์ใช้ LibSQL adapter กับไฟล์ SQLite ในเครื่อง จึงไม่ต้องติดตั้ง Visual Studio C++ Build Tools
 
 เริ่มใช้งาน:
 
